@@ -17,4 +17,4 @@ build:
       code: |
         echo ${WERCKER_CACHE_DIR}
         cd ${WERCKER_CACHE_DIR}
-        ls 
+        ls ${WERCKER_CACHE_DIR}/com/netinsight/scheduall/netinsight-core
