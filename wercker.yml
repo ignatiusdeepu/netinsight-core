@@ -1,0 +1,20 @@
+box: maven:latest
+command-timeout: 30
+no-response-timeout: 15
+
+workflows:
+  - name: build-and-push
+    pipelines:
+      - name: build
+
+build:
+  base-path: /go/src/github.com/wercker/wercker
+  steps:
+    - xenoterracide/maven:
+        goals: clean install
+    - script:
+      name: Check WERCKER_CACHE_DIR
+      code: |
+        echo ${WERCKER_CACHE_DIR}
+               
+              
