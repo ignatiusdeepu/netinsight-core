@@ -12,6 +12,7 @@ build:
   steps:
     - xenoterracide/maven:
         goals: clean install
+        cache_repo: true
     - script:
       name: Check WERCKER_CACHE_DIR
       code: |
