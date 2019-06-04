@@ -16,3 +16,5 @@ build:
       name: Check WERCKER_CACHE_DIR
       code: |
         echo ${WERCKER_CACHE_DIR}
+        cd ${WERCKER_CACHE_DIR}
+        ls 
