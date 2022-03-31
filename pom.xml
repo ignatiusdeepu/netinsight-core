@@ -14,7 +14,7 @@
 		<project.build.finalName>netinsight-core</project.build.finalName>
 		<commons-lang3.version>3.5</commons-lang3.version>
 		<springfox-swagger.version>2.9.2</springfox-swagger.version>
-		<spring.version>5.1.7.RELEASE</spring.version>
+		<spring.version>5.3.18</spring.version>
 		<jackson.version>2.9.9</jackson.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
